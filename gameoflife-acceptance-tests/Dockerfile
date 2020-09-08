@@ -1,4 +1,4 @@
-FROM selenium/standalone-firefox:latest
+FROM selenium/standalone-firefox:latest 
 
 ENV MAVEN_VERSION 3.3.3
 ENV DISPLAY :99
@@ -20,3 +20,4 @@ ENV MAVEN_HOME /opt/maven
 EXPOSE 9090
 
 CMD ["mvn"]
+
